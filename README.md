@@ -300,19 +300,7 @@ hotel-booking-analytics/
 
 ---
 
-## Git Commands
 
-```bash
-# Initialise and push to GitHub
-git init
-git add .
-git commit -m "Initial commit: Hotel Booking Analytics & Cancellation Prediction"
-git branch -M main
-git remote add origin https://github.com/<your-username>/hotel-booking-analytics.git
-git push -u origin main
-```
-
----
 
 ## Author
 
