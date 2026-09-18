@@ -4,6 +4,9 @@
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3%2B-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://hotel-booking-analytics-gfxoq4z9q6irbzqsv779fk.streamlit.app/)
+
+> 🚀 **[Live Dashboard →](https://hotel-booking-analytics-gfxoq4z9q6irbzqsv779fk.streamlit.app/)**
 
 ## Overview
 
@@ -164,7 +167,7 @@ The Streamlit dashboard (`dashboard/app.py`) contains four pages:
 | Cancellation Analytics | Cancel by deposit type, customer type, segment, lead time, special requests |
 | ML Prediction | Interactive form → cancellation prediction with probability |
 
-Live Demo: **[ADD DEPLOYED URL AFTER DEPLOYMENT]**
+Live Demo: **[https://hotel-booking-analytics-gfxoq4z9q6irbzqsv779fk.streamlit.app/](https://hotel-booking-analytics-gfxoq4z9q6irbzqsv779fk.streamlit.app/)**
 
 ---
 
