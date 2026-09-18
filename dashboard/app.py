@@ -54,8 +54,31 @@ def load_model():
     return model, feature_cols
 
 # ── SIDEBAR ───────────────────────────────────────────────────────────────────
+_HOTEL_SVG = """
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <!-- Sky background -->
+  <rect width="80" height="80" rx="12" fill="#1e3a5f"/>
+  <!-- Building body -->
+  <rect x="14" y="28" width="52" height="40" fill="#3a7bd5"/>
+  <!-- Roof -->
+  <polygon points="10,30 40,10 70,30" fill="#2563a8"/>
+  <!-- Door -->
+  <rect x="33" y="52" width="14" height="16" rx="2" fill="#1a2e4a"/>
+  <!-- Windows row 1 -->
+  <rect x="18" y="34" width="10" height="8" rx="1" fill="#ffd700"/>
+  <rect x="35" y="34" width="10" height="8" rx="1" fill="#ffd700"/>
+  <rect x="52" y="34" width="10" height="8" rx="1" fill="#ffd700"/>
+  <!-- Windows row 2 -->
+  <rect x="18" y="46" width="10" height="8" rx="1" fill="#ffd700"/>
+  <rect x="52" y="46" width="10" height="8" rx="1" fill="#ffd700"/>
+  <!-- Flag -->
+  <line x1="40" y1="10" x2="40" y2="4" stroke="white" stroke-width="1.5"/>
+  <polygon points="40,4 48,7 40,10" fill="#e74c3c"/>
+</svg>
+"""
 with st.sidebar:
-    st.image("https://img.icons8.com/color/96/000000/hotel-building.png", width=80)
+    st.markdown(_HOTEL_SVG, unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
     st.title("Hotel Booking\nAnalytics")
     st.markdown("---")
     page = st.radio(
