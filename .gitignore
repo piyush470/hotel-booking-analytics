@@ -1,0 +1,47 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Large data files (download from Kaggle)
+data/raw/hotel_bookings.csv
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Secrets
+.env
+*.key
+*.pem
+secrets.toml
+.streamlit/secrets.toml
+
+# OS
+desktop.ini
